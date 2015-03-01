@@ -1,0 +1,10 @@
+<Alloy>
+    <Window class="container">
+        <Label id="label" text="Hello, Test" />
+        <TextField id="inputIndex"/>
+        <TextField id="inputBadgeNumberValue" />
+        <Button id="btnBadgeNum" onClick="updateBadgeNum">Set Badge Number</Button>
+        <Button id="btnBadgeDot" onClick="updateBadgeDot">Set Badge Dot</Button>
+        <Require type="widget" src="me.wslong.tiTabGroupCrossPlatform" id="deseTabGroup" />
+    </Window>
+</Alloy>

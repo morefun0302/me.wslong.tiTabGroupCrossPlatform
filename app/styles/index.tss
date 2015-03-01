@@ -1,0 +1,40 @@
+".container": {
+	backgroundColor: "white"
+}
+
+"#label": {
+	top: 80,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20
+	}
+},
+
+"#inputIndex":{
+	top: 120,
+	width: "80%",
+	height: 30,
+	hintText: "Enter the tab index"
+},
+
+"#inputBadgeNumberValue":{
+	top: 160,
+	width: "80%",
+	height: 30,
+	hintText: "Enter the badge number value"
+},
+
+"#btnBadgeNum":{
+	top: 250,
+	width: "80%",
+	height: 30
+},
+
+"#btnBadgeDot":{
+	top: 300,
+	width: "80%",
+	height: 30
+}
+

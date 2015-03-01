@@ -1,0 +1,64 @@
+"#tabContainer":{
+	height: "60dp",
+	bottom: "0dp",
+	left: "0dp"
+},
+
+"#tab":{
+	width: "40dp",
+	height: Ti.UI.FILL,
+	touchEnabled: false
+},
+
+"#icon":{
+	width: "32dp",
+	height: "32dp",
+	top: "7dp",
+	touchEnabled: false,
+	preventDefaultImage: true
+},
+
+"#label": {
+	top: "40dp",
+	left: "5dp",
+	right: "5dp",
+	width: Ti.UI.FILL,
+	height: "15dp",
+	font: {
+		fontSize: "11dp"
+	},
+	textAlign: "center",
+	touchEnabled: false
+},
+
+"#badgeNum":{
+	top: "5dp",
+	right: 0,
+	height: "16dp",
+	width: Ti.UI.SIZE,
+	backgroundColor: "red",
+	borderColor: "red",
+	borderRadius: "7dp",
+	touchEnabled: false,
+	visible: false
+},
+
+"#badgeNumVal":{
+	color: "white",
+	font: {
+		fontSize: 12
+	},
+	touchEnabled: false
+},
+
+"#badgeDot": {
+	top: "7dp",
+	right: 0,
+	height: "6dp",
+	width: "6dp",
+	backgroundColor: "red",
+	borderColor: "red",
+	borderRadius: "3dp",
+	touchEnabled: false,
+	visible: false
+}

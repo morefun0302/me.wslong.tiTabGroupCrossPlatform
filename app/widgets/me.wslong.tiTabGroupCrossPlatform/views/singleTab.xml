@@ -1,0 +1,12 @@
+<Alloy>
+    <View id="tabContainer">
+        <View id="tab">
+            <ImageView id="icon" />
+            <View id="badgeNum">
+                <Label id="badgeNumVal" />
+            </View>
+            <View id="badgeDot" />
+        </View>
+        <Label id="label" />
+    </View>
+</Alloy>
