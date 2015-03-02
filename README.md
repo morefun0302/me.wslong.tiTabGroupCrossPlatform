@@ -10,4 +10,6 @@ This widget works for iOS, Android and Mobile Web. (Currently tested against the
 
 ![Widget Overall Screenshot](https://raw.githubusercontent.com/Shallong/me.wslong.tiTabGroupCrossPlatform/master/screenshots/screenshot.jpg)
 
-## This project is configured to be able to run in titanium studio directly, please have a check.
+## About this Demo
+
+The demo project is configured to be able to run in titanium studio directly.
