@@ -5,6 +5,4 @@ build
 npm-debug.log
 tmp
 .map
-.project
-.settings
 Thumbs.db
