@@ -32,7 +32,8 @@ exports.setTabBadgeNumber = function(_number) {
   if ( !isNaN(intNumber)) {
     if (intNumber > 0) {
       $.badgeDot.visible = false;
-      $.badgeNumVal.text = (intNumber > 99 ? " 99 " : " " + intNumber + " ");
+      $.badgeNumVal.text = (intNumber > 99 ? "99" : intNumber);
+      Math.floor(intNumber / 10) > 0 ? ($.badgeNum.width = "20dp") : ($.badgeNum.width = "16dp");
       $.badgeNum.visible = true;
     };
   } else {

@@ -35,18 +35,22 @@
 	top: "5dp",
 	right: 0,
 	height: "16dp",
-	width: Ti.UI.SIZE,
+	width: "16dp",
 	backgroundColor: "red",
+	borderWidth: 1,
 	borderColor: "red",
-	borderRadius: "7dp",
+	borderRadius: 8,
 	touchEnabled: false,
 	visible: false
 },
 
 "#badgeNumVal":{
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
 	color: "white",
+	textAlign: "center",
 	font: {
-		fontSize: 12
+		fontSize: 11
 	},
 	touchEnabled: false
 },
@@ -57,8 +61,9 @@
 	height: "6dp",
 	width: "6dp",
 	backgroundColor: "red",
+	borderWidth: 1,
 	borderColor: "red",
-	borderRadius: "3dp",
+	borderRadius: 3,
 	touchEnabled: false,
 	visible: false
 }

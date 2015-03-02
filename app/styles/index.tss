@@ -1,9 +1,13 @@
 ".container": {
 	backgroundColor: "white"
-}
+},
+
+"TextField":{
+	color: "black"
+},
 
 "#label": {
-	top: 80,
+	top: 60,
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
 	color: "#000",
@@ -13,16 +17,16 @@
 },
 
 "#inputIndex":{
-	top: 120,
+	top: 100,
 	width: "80%",
-	height: 30,
+	height: 40,
 	hintText: "Enter the tab index"
 },
 
 "#inputBadgeNumberValue":{
 	top: 160,
 	width: "80%",
-	height: 30,
+	height: 40,
 	hintText: "Enter the badge number value"
 },
 
