@@ -3,11 +3,11 @@
     "name": "me.wslong.tiTabGroupCrossPlatform",
     "description": "A custom tab group based on com.mcongrove.tabs for ios, android and mobileweb",
     "author": "Shallong",
-    "version": "1.0",
+    "version": "1.1",
     "copyright": "Copyright 2014-2015 Shallong",
     "license": "Apache Licence 2.0",
     "min-alloy-version": "1.1",
     "min-titanium-version": "3.0",
-    "tags": "",
+    "tags": "Tab Group Cross Platform",
     "platforms": "android,ios,mobileweb"
 }
